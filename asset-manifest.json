@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/lawApp/static/css/main.0a228fd3.css",
+    "main.js": "/lawApp/static/js/main.3f7f5ce1.js",
+    "static/js/453.027dcb02.chunk.js": "/lawApp/static/js/453.027dcb02.chunk.js",
+    "static/media/logo.png": "/lawApp/static/media/logo.e06e5536046fecbf758d.png",
+    "index.html": "/lawApp/index.html",
+    "main.0a228fd3.css.map": "/lawApp/static/css/main.0a228fd3.css.map",
+    "main.3f7f5ce1.js.map": "/lawApp/static/js/main.3f7f5ce1.js.map",
+    "453.027dcb02.chunk.js.map": "/lawApp/static/js/453.027dcb02.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a228fd3.css",
+    "static/js/main.3f7f5ce1.js"
+  ]
+}
