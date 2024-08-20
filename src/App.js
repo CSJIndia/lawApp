@@ -37,8 +37,7 @@ function App() {
                 sectionNoInput: row[0],       // Section No (old)
                 textOfOldLaw: row[1],         // Text of old law
                 sectionNoOutput: row[2],      // Section No (new)
-                textOfNewLaw: row[3],         // Text of new law
-                descriptionOfChange: row[4],  // Description of Changes
+                textOfNewLaw: row[3]         // Text of new law
               };
             }),
           ];
@@ -144,11 +143,10 @@ function App() {
       <table className="table table-bordered">
         <thead className="thead-light">
           <tr>
-            <th>Section No</th>
-            <th>Text of Old Law</th>
-            <th>Section No</th>
-            <th>Text of New Law</th>
-            <th>Description of Changes</th>
+            <th>पुरानी धारा नंबर</th>
+            <th>नयी धारा नंबर</th>
+            <th>नया कानून</th>
+            <th>बदलावों का विवरण</th>
           </tr>
         </thead>
         <tbody>
@@ -156,9 +154,8 @@ function App() {
             <tr key={index}>
               <td>{row.sectionNoInput}</td>
               <td dangerouslySetInnerHTML={{ __html: row.textOfOldLaw }}></td>
-              <td>{row.sectionNoOutput}</td>
+              <td dangerouslySetInnerHTML={{ __html: row.sectionNoOutput }}></td>
               <td dangerouslySetInnerHTML={{ __html: row.textOfNewLaw }}></td>
-              <td dangerouslySetInnerHTML={{ __html: row.descriptionOfChange }}></td>
             </tr>
           ))}
         </tbody>
