@@ -115,9 +115,10 @@ function App() {
         <img src={Parivartan} alt="Header" style={{ width: '30%', height: '30%' }} />
         <nav style={{ position: 'absolute', top: '20px', right: '20px' }}>
           <a href="./About.html" className="about-us-link">About Us</a> {/* Link to external About Us page */}
-          <a href="./howToUse.html" className="about-us-link">How to use</a> 
-          <a href="./howToUse.html" className="about-us-link">Contact Us</a> 
+          <a href="./howToUse.html" className="about-us-link" style={{ marginLeft: '20px' }}>How to use</a> 
+          <a href="./Contact.html" className="about-us-link" style={{ marginLeft: '20px' }}>Contact Us</a> 
         </nav>
+        
       </header>
       <div className="mb-4">
         <div className="form-group">

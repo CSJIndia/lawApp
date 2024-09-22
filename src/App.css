@@ -17,3 +17,16 @@ th, td {
   padding: 10px;
   text-align: left;
 }
+
+.about-us-link {
+  margin-right: 15px; /* Space between links */
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px; /* Add padding to anchor tag */
+}
+
+.about-us-link:hover {
+  background-color: #f0f0f0; /* Background color on hover */
+  border-radius: 4px; /* Optional rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
