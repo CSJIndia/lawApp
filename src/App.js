@@ -114,9 +114,9 @@ function App() {
       <header className="d-flex justify-content-center align-items-center mb-4">
         <img src={Parivartan} alt="Header" style={{ width: '30%', height: '30%' }} />
         <nav style={{ position: 'absolute', top: '20px', right: '20px' }}>
-          <a href="./About.html" className="about-us-link">About Us</a> {/* Link to external About Us page */}
+          <a href="./About.html" className="about-us-link">About the app</a> {/* Link to external About Us page */}
           <a href="./howToUse.html" className="about-us-link" style={{ marginLeft: '20px' }}>How to use</a> 
-          <a href="https://forms.gle/idYBGtD9CfCYo3XX9" className="about-us-link" style={{ marginLeft: '20px' }}>Feedback</a> 
+          <a href="https://forms.gle/idYBGtD9CfCYo3XX9" className="about-us-link" target="_blank" style={{ marginLeft: '20px' }}>Feedback</a> 
         </nav>
         
       </header>
