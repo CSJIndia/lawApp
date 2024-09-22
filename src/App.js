@@ -15,7 +15,7 @@ function App() {
   const [sectionOptions, setSectionOptions] = useState([]);
 
   useEffect(() => {
-    fetch('/test.xlsx')
+    fetch('./test.xlsx')
       .then((response) => response.arrayBuffer())
       .then((data) => {
         console.log("data :", data);
