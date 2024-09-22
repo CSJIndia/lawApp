@@ -15,9 +15,10 @@ function App() {
   const [sectionOptions, setSectionOptions] = useState([]);
 
   useEffect(() => {
-    fetch('./test.xlsx')
+    fetch('/test.xlsx')
       .then((response) => response.arrayBuffer())
       .then((data) => {
+        console.log("data :", data);
         const workbook = read(data, { type: 'array' });
 
         let allData = [];
@@ -113,9 +114,9 @@ function App() {
       <header className="d-flex justify-content-center align-items-center mb-4">
         <img src={Parivartan} alt="Header" style={{ width: '30%', height: '30%' }} />
         <nav style={{ position: 'absolute', top: '20px', right: '20px' }}>
-          <a href="/About.html" className="about-us-link">About Us</a> {/* Link to external About Us page */}
-          <a href="/howToUse.html" className="about-us-link">How to use</a> 
-          <a href="/howToUse.html" className="about-us-link">Contact Us</a> 
+          <a href="./About.html" className="about-us-link">About Us</a> {/* Link to external About Us page */}
+          <a href="./howToUse.html" className="about-us-link">How to use</a> 
+          <a href="./howToUse.html" className="about-us-link">Contact Us</a> 
         </nav>
       </header>
       <div className="mb-4">
