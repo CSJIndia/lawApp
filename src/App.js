@@ -116,7 +116,7 @@ function App() {
         <nav style={{ position: 'absolute', top: '20px', right: '20px' }}>
           <a href="./About.html" className="about-us-link">About Us</a> {/* Link to external About Us page */}
           <a href="./howToUse.html" className="about-us-link" style={{ marginLeft: '20px' }}>How to use</a> 
-          <a href="https://forms.gle/idYBGtD9CfCYo3XX9" className="about-us-link" style={{ marginLeft: '20px' }}>Contact Us</a> 
+          <a href="https://forms.gle/idYBGtD9CfCYo3XX9" className="about-us-link" style={{ marginLeft: '20px' }}>Feedback</a> 
         </nav>
         
       </header>
